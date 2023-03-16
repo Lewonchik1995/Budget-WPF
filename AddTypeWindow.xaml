@@ -1,0 +1,25 @@
+﻿<Window x:Class="Budget_WPF.AddTypeWindow"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Budget_WPF"
+        mc:Ignorable="d"
+        Title="Бюджет - добавление типа" Height="150" Width="400">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition />
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <TextBox x:Name="Type_name"
+            Style="{StaticResource MaterialDesignFilledTextBox}"
+            materialDesign:HintAssist.Hint="Имя типа" 
+            Grid.Row="0" Margin="5 5 10 5"/>
+        <Button x:Name="Button_save_type"
+            Style="{StaticResource MaterialDesignFlatDarkBgButton}"
+            ToolTip="MaterialDesignFlatDarkButton"
+            Content="Сохранить тип"
+            Grid.Row="3" Grid.Column="1" Margin="5 5 10 5" Cursor="Hand" Height="32" VerticalAlignment="Top" Click="Button_save_type_Click"/>
+    </Grid>
+</Window>

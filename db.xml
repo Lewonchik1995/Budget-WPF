@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfNote xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Note>
+    <Date>2023-03-16T00:00:00</Date>
+    <Name>Бургер + кола</Name>
+    <Type>Рестораны</Type>
+    <Sum>374</Sum>
+    <IsInCome>false</IsInCome>
+  </Note>
+  <Note>
+    <Date>2023-03-16T00:00:00</Date>
+    <Name>Зарплата</Name>
+    <Type>Работа</Type>
+    <Sum>30000</Sum>
+    <IsInCome>true</IsInCome>
+  </Note>
+  <Note>
+    <Date>2023-03-15T00:00:00</Date>
+    <Name>Аванс</Name>
+    <Type>Работа</Type>
+    <Sum>10000</Sum>
+    <IsInCome>true</IsInCome>
+  </Note>
+  <Note>
+    <Date>2023-03-16T00:00:00</Date>
+    <Name>Заправка</Name>
+    <Type>Авто</Type>
+    <Sum>2000</Sum>
+    <IsInCome>false</IsInCome>
+  </Note>
+  <Note>
+    <Date>2023-03-16T00:00:00</Date>
+    <Name>Продукты</Name>
+    <Type>Еда</Type>
+    <Sum>3400</Sum>
+    <IsInCome>false</IsInCome>
+  </Note>
+</ArrayOfNote>
